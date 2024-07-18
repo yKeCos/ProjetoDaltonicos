@@ -1,0 +1,49 @@
+h1{
+    color: greenyellow;
+}
+
+body{
+    background-image: url(images/backgroundparaoscoitados.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.button-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttoncolor1{
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.buttoncolor2{
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.buttoncolor3{
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.buttoncolor1:hover{
+    background-color: #45a049;
+}
+
+.buttoncolor2:hover{
+    background-color: #45a049;
+}
+
+.buttoncolor3:hover{
+    background-color: #45a049;
+}
